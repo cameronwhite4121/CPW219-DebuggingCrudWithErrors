@@ -43,7 +43,7 @@ namespace CPW219_CRUD_Troubleshooting.Controllers
             Student p = StudentDb.GetStudent(context, id);
 
             //show it on web page
-            return View();
+            return View(p);
         }
 
         [HttpPost]
